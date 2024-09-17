@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/STF_Image">
+        <file>STF_Image/STF_Button_Sun.png</file>
+        <file>STF_Image/STF_Button_Water.png</file>
+        <file>STF_Image/STF_LTC.png</file>
+        <file>STF_Image/STF_Overview.png</file>
+        <file>STF_Image/STF_PotSlider.png</file>
+        <file>STF_Image/STF_Bad.png</file>
+        <file>STF_Image/STF_Danger.png</file>
+        <file>STF_Image/STF_Good.png</file>
+        <file>STF_Image/STF_Icon_DownBtn.png</file>
+        <file>STF_Image/STF_Icon_LeftBtn.png</file>
+        <file>STF_Image/STF_Icon_RightBtn.png</file>
+        <file>STF_Image/STF_Icon_StopBtn.png</file>
+        <file>STF_Image/STF_Icon_UpBtn.png</file>
+        <file>STF_Image/STF_Pot.png</file>
+        <file>STF_Image/STF_Smile.png</file>
+        <file>STF_Image/STF_Soso.png</file>
+        <file>STF_Image/STF_Logo.png</file>
+        <file>STF_Image/STF_Title.png</file>
+        <file>STF_Image/STF_Green.png</file>
+        <file>STF_Image/STF_Red.png</file>
+        <file>STF_Image/STF_Yellow.png</file>
+        <file>STF_Image/STF_Linetracer.png</file>
+        <file>STF_Image/STF_TurtleBot.png</file>
+    </qresource>
+</RCC>
