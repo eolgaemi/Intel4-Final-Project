@@ -46,7 +46,7 @@
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="STF_Image.qrc">:/STF_Images/STF_Images/STF_Green.png</pixmap>
+                <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_Green.png</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -67,7 +67,7 @@
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap resource="STF_Image.qrc">:/STF_Images/STF_Images/STF_TurtleBot.png</pixmap>
+              <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_TurtleBot.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -102,7 +102,7 @@
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="STF_Image.qrc">:/STF_Images/STF_Images/STF_Yellow.png</pixmap>
+                <pixmap>:/STF_Images/STF_Images/STF_Yellow.png</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -162,7 +162,7 @@
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="STF_Image.qrc">:/STF_Images/STF_Images/STF_Red.png</pixmap>
+                <pixmap>:/STF_Images/STF_Images/STF_Red.png</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -183,7 +183,7 @@
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap resource="STF_Image.qrc">:/STF_Images/STF_Images/STF_Linetracer.png</pixmap>
+              <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_Linetracer.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -218,7 +218,7 @@
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="STF_Image.qrc">:/STF_Images/STF_Images/STF_Green.png</pixmap>
+                <pixmap>:/STF_Images/STF_Images/STF_Green.png</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -239,7 +239,7 @@
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap resource="STF_Image.qrc">:/STF_Images/STF_Images/STF_Linetracer.png</pixmap>
+              <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_Linetracer.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -335,7 +335,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="STF_Image.qrc"/>
+  <include location="../STF_Image.qrc"/>
  </resources>
  <connections/>
 </ui>
