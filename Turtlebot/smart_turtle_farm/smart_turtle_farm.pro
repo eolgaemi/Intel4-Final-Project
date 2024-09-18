@@ -39,10 +39,12 @@ FORMS += \
 
 INCLUDEPATH += /opt/ros/noetic/include
 
+RESOURCES += \
+    STF_Image.qrc
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-RESOURCES += \
-    resources/STF_Image.qrc
+
