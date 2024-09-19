@@ -123,7 +123,7 @@
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap resource="STF_Image.qrc">:/STF_Images/STF_Images/STF_Linetracer.png</pixmap>
+              <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_Linetracer.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
