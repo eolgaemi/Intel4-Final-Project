@@ -17,7 +17,7 @@ class MainWidget : public QWidget
     Q_OBJECT
 
 public:
-    MainWidget(QWidget *parent = nullptr);
+    MainWidget(int argc, char** argv, QWidget *parent = nullptr);
     ~MainWidget();
 
 private:

@@ -1,7 +1,7 @@
 #include "../include/smart_turtle_farm/mainwidget.h"
 #include "ui_mainwidget.h"
 
-MainWidget::MainWidget(QWidget *parent)
+MainWidget::MainWidget(int argc, char** argv, QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::MainWidget)
 {
@@ -10,7 +10,7 @@ MainWidget::MainWidget(QWidget *parent)
     ui->pTab1->setLayout(pTab1ControlPannel->layout());
     pTab2PotStatusPannel = new Tab2PotStatusPannel(ui->pTab2);
     ui->pTab2->setLayout(pTab2PotStatusPannel->layout());
-    pTab3TurtleBotControlPannel = new Tab3TurtleBotControlPannel(ui->pTab3);
+    pTab3TurtleBotControlPannel = new Tab3TurtleBotControlPannel(argc, argv, ui->pTab3);
     ui->pTab3->setLayout(pTab3TurtleBotControlPannel->layout());
     pTab4AdminLogin = new Tab4AdminLogin(ui->pTab4);
     ui->pTab4->setLayout(pTab4AdminLogin->layout());

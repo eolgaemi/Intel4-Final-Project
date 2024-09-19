@@ -29,7 +29,7 @@
        <bool>true</bool>
       </property>
       <property name="layoutDirection">
-       <enum>Qt::LayoutDirection::LeftToRight</enum>
+       <enum>Qt::LeftToRight</enum>
       </property>
       <property name="frame">
        <bool>true</bool>

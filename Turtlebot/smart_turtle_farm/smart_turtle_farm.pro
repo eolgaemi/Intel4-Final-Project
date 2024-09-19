@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     src/main.cpp \
     src/mainwidget.cpp \
+    src/rosnode.cpp \
     src/stftcpserver.cpp \
     src/stfudpserver.cpp \
     src/tab1controlpannel.cpp \
@@ -21,6 +22,7 @@ SOURCES += \
 
 HEADERS += \
     include/smart_turtle_farm/mainwidget.h \
+    include/smart_turtle_farm/rosnode.h \
     include/smart_turtle_farm/stftcpserver.h \
     include/smart_turtle_farm/stfudpserver.h \
     include/smart_turtle_farm/tab1controlpannel.h \

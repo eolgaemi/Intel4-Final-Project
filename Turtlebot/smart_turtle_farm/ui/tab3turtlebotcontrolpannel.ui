@@ -19,7 +19,11 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QGraphicsView" name="pGVCam"/>
+        <widget class="QLabel" name="pLcamView">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pPBCamStart">
@@ -61,7 +65,7 @@
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap resource="../resources/STF_Image.qrc">:/STF_Images/STF_Images/STF_Danger.png</pixmap>
+              <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_Danger.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -94,7 +98,7 @@
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap resource="../resources/STF_Image.qrc">:/STF_Images/STF_Images/STF_Good.png</pixmap>
+              <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_Good.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -201,8 +205,8 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../resources/STF_Image.qrc">
-             <normaloff>:/STF_Images/STF_Images/STF_Icon_RightBtn.png</normaloff>:/STF_Images/STF_Images/STF_Icon_RightBtn.png</iconset>
+            <iconset resource="../STF_Image.qrc">
+             <normaloff>:/STF_Images/STF_Icon_RightBtn.png</normaloff>:/STF_Images/STF_Icon_RightBtn.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -224,8 +228,8 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../resources/STF_Image.qrc">
-             <normaloff>:/STF_Images/STF_Images/STF_Icon_UpBtn.png</normaloff>:/STF_Images/STF_Images/STF_Icon_UpBtn.png</iconset>
+            <iconset resource="../STF_Image.qrc">
+             <normaloff>:/STF_Images/STF_Icon_UpBtn.png</normaloff>:/STF_Images/STF_Icon_UpBtn.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -247,8 +251,8 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../resources/STF_Image.qrc">
-             <normaloff>:/STF_Images/STF_Images/STF_Icon_DownBtn.png</normaloff>:/STF_Images/STF_Images/STF_Icon_DownBtn.png</iconset>
+            <iconset resource="../STF_Image.qrc">
+             <normaloff>:/STF_Images/STF_Icon_DownBtn.png</normaloff>:/STF_Images/STF_Icon_DownBtn.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -270,8 +274,8 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../resources/STF_Image.qrc">
-             <normaloff>:/STF_Images/STF_Images/STF_Icon_StopBtn.png</normaloff>:/STF_Images/STF_Images/STF_Icon_StopBtn.png</iconset>
+            <iconset resource="../STF_Image.qrc">
+             <normaloff>:/STF_Images/STF_Icon_StopBtn.png</normaloff>:/STF_Images/STF_Icon_StopBtn.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -293,8 +297,8 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../resources/STF_Image.qrc">
-             <normaloff>:/STF_Images/STF_Images/STF_Icon_LeftBtn.png</normaloff>:/STF_Images/STF_Images/STF_Icon_LeftBtn.png</iconset>
+            <iconset resource="../STF_Image.qrc">
+             <normaloff>:/STF_Images/STF_Icon_LeftBtn.png</normaloff>:/STF_Images/STF_Icon_LeftBtn.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -313,7 +317,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../resources/STF_Image.qrc"/>
+  <include location="../STF_Image.qrc"/>
  </resources>
  <connections/>
 </ui>
