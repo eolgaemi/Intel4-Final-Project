@@ -113,6 +113,14 @@ void RosNode::imageCallback(const sensor_msgs::ImageConstPtr& msg)
     ROS_ERROR("Could not convert from '%s' to 'bgr8'.", msg->encoding.c_str());
   }
   cvtColor(frame, frame,  cv::COLOR_BGR2RGB);
+
+  // ArUco 마커 검출
+/*  cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getDefaultDictionary(cv::aruco::DICT_6X6_250);
+  std::vector<int> ids;
+  std::vector<std::vector<cv::Point2f>> corners;
+
+  cv::aruco::detectMarkers(frame, dictionary, corners, ids);
+*/
   cv::line(frame, cv::Point((frame.cols >> 1) - 20, frame.rows >> 1), cv::Point((frame.cols >> 1) + 20, frame.rows >> 1), cv::Scalar(255, 0, 0), 3);
   cv::line(frame, cv::Point(frame.cols >> 1, (frame.rows >> 1) - 20), cv::Point(frame.cols >> 1, (frame.rows >> 1) + 20), cv::Scalar(255, 0, 0), 3);
   QImage * pImage = new QImage(frame.data, frame.cols, frame.rows, QImage::Format_RGB888);

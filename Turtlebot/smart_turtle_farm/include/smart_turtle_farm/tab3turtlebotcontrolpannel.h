@@ -21,7 +21,9 @@ private:
     Ui::Tab3TurtleBotControlPannel *ui;
     RosNode *prosNode;
     geometry_msgs::Twist base_cmd;
-
+    bool baseCmdFlag;
+    int linearX;
+    int angularZ;
     float LINEAR_MAX;
     float ANGULAR_MAX;
 
@@ -36,11 +38,13 @@ private slots:
     void goal_Pub_Coord5();
     void goal_Pub_Coord6();
 
-    void on_pPBup_clicked();
-    void on_pPBdown_clicked();
+    void on_pPBForward_clicked();
+    void on_pPBBackward_clicked();
     void on_pPBleft_clicked();
     void on_pPBright_clicked();
     void on_pPBstop_clicked();
+    void cmdVelPubSlot(int,int);
+
 };
 
 #endif // TAB3TURTLEBOTCONTROLPANNEL_H

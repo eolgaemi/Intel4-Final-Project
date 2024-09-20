@@ -18,6 +18,7 @@
 #include <sensor_msgs/LaserScan.h>
 #include <image_transport/image_transport.h>
 #include <opencv2/highgui/highgui.hpp>
+#include <opencv2/aruco.hpp>
 #include <cv_bridge/cv_bridge.h>
 
 class RosNode : public QThread{
