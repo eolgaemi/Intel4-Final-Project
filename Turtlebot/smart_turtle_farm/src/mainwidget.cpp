@@ -6,6 +6,7 @@ MainWidget::MainWidget(int argc, char** argv, QWidget *parent)
     , ui(new Ui::MainWidget)
 {
     ui->setupUi(this);
+    setWindowTitle("Smart Turtle Farm ROS");
     pTab1ControlPannel= new Tab1ControlPannel(ui->pTab1);
     ui->pTab1->setLayout(pTab1ControlPannel->layout());
     pTab2PotStatusPannel = new Tab2PotStatusPannel(ui->pTab2);
