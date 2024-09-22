@@ -78,8 +78,13 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	color: rgb(255,0,255);
+}</string>
+           </property>
            <property name="text">
-            <string>좌표6</string>
+            <string>워터펌프</string>
            </property>
           </widget>
          </item>
@@ -91,8 +96,13 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	color: rgb(0,183,235);
+}</string>
+           </property>
            <property name="text">
-            <string>좌표4</string>
+            <string>창가2</string>
            </property>
           </widget>
          </item>
@@ -106,11 +116,11 @@
            </property>
            <property name="styleSheet">
             <string notr="true">QPushButton{
-	color: rgb(220,234,0);
+	color: rgb(208,177,52);
 }</string>
            </property>
            <property name="text">
-            <string>좌표2</string>
+            <string>화분1</string>
            </property>
           </widget>
          </item>
@@ -124,7 +134,7 @@
            </property>
            <property name="styleSheet">
             <string notr="true">QPushButton{
-	color: rgb(0,255,0);
+	color: rgb(49,143,35);
 }</string>
            </property>
            <property name="text">
@@ -146,7 +156,7 @@
 }</string>
            </property>
            <property name="text">
-            <string>좌표5</string>
+            <string>화분3</string>
            </property>
           </widget>
          </item>
@@ -164,7 +174,7 @@
 }</string>
            </property>
            <property name="text">
-            <string>좌표3</string>
+            <string>화분2</string>
            </property>
           </widget>
          </item>
@@ -182,37 +192,14 @@
          <property name="spacing">
           <number>6</number>
          </property>
-         <item row="1" column="2">
-          <widget class="QPushButton" name="pPBright">
+         <item row="0" column="1">
+          <widget class="QPushButton" name="pPBForward">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
-           <property name="maximumSize">
-            <size>
-             <width>72</width>
-             <height>72</height>
-            </size>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="../STF_Image.qrc">
-             <normaloff>:/STF_Images/STF_Icon_RightBtn.png</normaloff>:/STF_Images/STF_Icon_RightBtn.png</iconset>
-           </property>
-           <property name="iconSize">
-            <size>
-             <width>72</width>
-             <height>72</height>
-            </size>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <widget class="QPushButton" name="pPBForward">
            <property name="maximumSize">
             <size>
              <width>72</width>
@@ -292,35 +279,6 @@
            </property>
           </widget>
          </item>
-         <item row="1" column="0">
-          <widget class="QPushButton" name="pPBleft">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>72</width>
-             <height>72</height>
-            </size>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="../STF_Image.qrc">
-             <normaloff>:/STF_Images/STF_Icon_LeftBtn.png</normaloff>:/STF_Images/STF_Icon_LeftBtn.png</iconset>
-           </property>
-           <property name="iconSize">
-            <size>
-             <width>72</width>
-             <height>72</height>
-            </size>
-           </property>
-          </widget>
-         </item>
          <item row="0" column="0">
           <layout class="QHBoxLayout" name="horizontalLayout_5">
            <item>
@@ -352,6 +310,35 @@
            </item>
           </layout>
          </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="pPBright">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>72</width>
+             <height>72</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../STF_Image.qrc">
+             <normaloff>:/STF_Images/STF_Icon_RightBtn.png</normaloff>:/STF_Images/STF_Icon_RightBtn.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>72</width>
+             <height>72</height>
+            </size>
+           </property>
+          </widget>
+         </item>
          <item row="0" column="2">
           <layout class="QHBoxLayout" name="horizontalLayout_6">
            <item>
@@ -382,6 +369,38 @@
             </spacer>
            </item>
           </layout>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pPBleft">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>72</width>
+             <height>72</height>
+            </size>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::RightToLeft</enum>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../STF_Image.qrc">
+             <normaloff>:/STF_Images/STF_Icon_LeftBtn.png</normaloff>:/STF_Images/STF_Icon_LeftBtn.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>72</width>
+             <height>72</height>
+            </size>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
