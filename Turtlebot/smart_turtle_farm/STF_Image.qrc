@@ -23,5 +23,6 @@
         <file>STF_Images/STF_Button_Water.png</file>
         <file>STF_Images/STF_Button_Sun.png</file>
         <file>STF_Images/STF_Bad.png</file>
+        <file>STF_Images/STF_Map.png</file>
     </qresource>
 </RCC>

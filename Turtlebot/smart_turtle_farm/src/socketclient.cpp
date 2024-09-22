@@ -1,4 +1,4 @@
-#include "socketclient.h"
+#include "../include/smart_turtle_farm/socketclient.h"
 #define Kor(str)  QString::fromLocal8Bit(str)
 
 SocketClient::SocketClient(QWidget *parent, Qt::WindowFlags flags)
