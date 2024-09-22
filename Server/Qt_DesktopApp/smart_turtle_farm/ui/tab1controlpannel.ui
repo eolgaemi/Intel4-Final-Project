@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tab1ControlPannel</class>
+ <widget class="QWidget" name="Tab1ControlPannel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>840</width>
+        <height>492</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <widget class="QLabel" name="plabelBack">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>841</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_Overview.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pPot1PBSun">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>280</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../STF_Image.qrc">
+         <normaloff>:/STF_Images/STF_Button_Sun.png</normaloff>:/STF_Images/STF_Button_Sun.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pPot1PBWater">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>280</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../STF_Image.qrc">
+         <normaloff>:/STF_Images/STF_Button_Water.png</normaloff>:/STF_Images/STF_Button_Water.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pPot2PBSun">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>280</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../STF_Image.qrc">
+         <normaloff>:/STF_Images/STF_Button_Sun.png</normaloff>:/STF_Images/STF_Button_Sun.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pPot2PBWater">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>280</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../STF_Image.qrc">
+         <normaloff>:/STF_Images/STF_Button_Water.png</normaloff>:/STF_Images/STF_Button_Water.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pPot3PBSun">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>280</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../STF_Image.qrc">
+         <normaloff>:/STF_Images/STF_Button_Sun.png</normaloff>:/STF_Images/STF_Button_Sun.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pPot3PBWater">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>280</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../STF_Image.qrc">
+         <normaloff>:/STF_Images/STF_Button_Water.png</normaloff>:/STF_Images/STF_Button_Water.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="plabelPot1">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>170</y>
+         <width>91</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_LTC.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="plabelPot2">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>170</y>
+         <width>91</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_LTC.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="plabelPot3">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>170</y>
+         <width>91</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_LTC.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="plabelPotSlider">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>210</y>
+         <width>401</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../STF_Image.qrc">:/STF_Images/STF_PotSlider.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <zorder>plabelBack</zorder>
+      <zorder>plabelPotSlider</zorder>
+      <zorder>plabelPot1</zorder>
+      <zorder>plabelPot2</zorder>
+      <zorder>plabelPot3</zorder>
+      <zorder>pPot1PBSun</zorder>
+      <zorder>pPot1PBWater</zorder>
+      <zorder>pPot2PBSun</zorder>
+      <zorder>pPot2PBWater</zorder>
+      <zorder>pPot3PBSun</zorder>
+      <zorder>pPot3PBWater</zorder>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../STF_Image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
