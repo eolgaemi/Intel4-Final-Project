@@ -44,6 +44,8 @@ def send_message(pot, leaf_status, tomato_status):
         print(f'오류가 발생했습니다: {e}')
 
 def detect_ripe_tomatoes(cropped_img, model):
+
+    ripe_found = False
     # HSV 색상으로 변환
     hsv = cv2.cvtColor(cropped_img, cv2.COLOR_BGR2HSV)
 
@@ -81,7 +83,9 @@ def detect_ripe_tomatoes(cropped_img, model):
     return ripe_found
 
 def start_server(host='0.0.0.0', port=5000):
-    global client_socket    
+    global client_socket
+    conf_threshold = 0.6
+    
     # TCP 소켓 생성
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind((host, port))
@@ -187,7 +191,7 @@ def start_server(host='0.0.0.0', port=5000):
                 # 바운딩 박스 및 라벨 표시
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
                 cv2.putText(frame, f'{predicted_label}: {conf:.2f}', (x1, y1 - 10), 
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)                            
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)                         
                 
 
             # 영상 출력

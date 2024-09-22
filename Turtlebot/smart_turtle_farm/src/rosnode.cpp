@@ -120,6 +120,7 @@ void RosNode::set_cmdBaseCmd(bool flag)
 int RosNode::connectToServer() {
     const char* SERVER_IP = "10.10.141.19"; // 서버 IP
     const int SERVER_PORT = 5000; // 서버 포트
+    const int TIMEOUT = 30; // 타임아웃 시간 (초)
 
     int sock = socket(AF_INET, SOCK_STREAM, 0);
     if (sock < 0) {
@@ -137,6 +138,12 @@ int RosNode::connectToServer() {
         close(sock);
         return -1;
     }
+
+    // 소켓에 타임아웃 설정
+    struct timeval timeout;
+    timeout.tv_sec = TIMEOUT;
+    timeout.tv_usec = 0;
+    setsockopt(sock, SOL_SOCKET, SO_SNDTIMEO, (const char*)&timeout, sizeof(timeout));
 
     if (::connect(sock, (struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) {
         ROS_ERROR("Connection to server %s:%d failed: %s", SERVER_IP, SERVER_PORT, strerror(errno));
@@ -247,7 +254,7 @@ void RosNode::imageCallback(const sensor_msgs::ImageConstPtr& msg)
         for (size_t i = 0; i < corners.size(); i++) {
             // 각 마커의 ID를 상단에 텍스트로 출력
             std::string text = pots[ids[i]];
-            qDebug() << "Mememememe" << QString::fromStdString(text);
+
             cv::putText(frame, text,
                         corners[i][0], // 첫 번째 모서리 좌표 사용
                         cv::FONT_HERSHEY_SIMPLEX,
