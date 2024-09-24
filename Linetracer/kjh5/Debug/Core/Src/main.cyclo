@@ -1,0 +1,16 @@
+../Core/Src/main.c:87:5:main	5
+../Core/Src/main.c:164:6:SystemClock_Config	3
+../Core/Src/main.c:211:13:MX_TIM2_Init	4
+../Core/Src/main.c:256:13:MX_TIM3_Init	7
+../Core/Src/main.c:319:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:352:13:MX_USART6_UART_Init	2
+../Core/Src/main.c:385:13:MX_GPIO_Init	1
+../Core/Src/main.c:450:6:HAL_UART_RxCpltCallback	7
+../Core/Src/main.c:469:13:go	1
+../Core/Src/main.c:479:13:back	1
+../Core/Src/main.c:488:13:turn_left	1
+../Core/Src/main.c:497:13:turn_right	1
+../Core/Src/main.c:507:13:stop	1
+../Core/Src/main.c:514:13:r_mode	4
+../Core/Src/main.c:542:13:l_mode	4
+../Core/Src/main.c:577:6:Error_Handler	1
